@@ -11,7 +11,7 @@ const App=() =>{
     danger:"text-danguer",
   };
   return (
-    <div className={classObjeto.primary}>Primer Componente {saludo}</div>
+    <div className={classObjeto.primary}>Primer Componente  creado{saludo}</div>
   );
 }
 
