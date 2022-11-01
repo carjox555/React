@@ -1,6 +1,8 @@
 import React from 'react';
-import Pokemons from './componentes/Pokemons';
+//import Pokemons from './componentes/Pokemons';
+import CrudApp from './componentes/crud/CrudApp';
 import './App.css';
+//import Referencia from './componentes/Referencia';
 //import Contador from './componentes/Contador';
 //import ListaName from './componentes/ListaName';
 
@@ -23,9 +25,13 @@ const App = () => {
       {/* <button className='btn btn-primary'
         onClick={() => funclick("carjox")}>on click
       </button>*/}
-      {/* <Contador/>  */}
-      {/* <ListaName/> */}
+      {/* <Contador/> */}
+      {/* <hr />
+      <ListaName/>
       <Pokemons></Pokemons>
+      <hr />
+      <Referencia/> */}
+      <CrudApp></CrudApp>
     </div>
 
   );
