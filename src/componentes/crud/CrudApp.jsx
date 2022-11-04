@@ -12,6 +12,7 @@ const baseDatos = [
 const CrudApp = () => {
 
     const [productos, setProductos] = useState(baseDatos);
+    
   //Insercion de datos
     const addProduct = (producto) => {
         setProductos([
